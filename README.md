@@ -22,3 +22,6 @@ https://www.palmolive.com/en-us/ingredients
 
 scrubbing bubbles
 https://www.whatsinsidescjohnson.com/us/en/brands/scrubbing-bubbles
+
+windex
+https://www.whatsinsidescjohnson.com/us/en/brands/windex/windex-original-glass-cleaner
