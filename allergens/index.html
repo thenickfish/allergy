@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<div class="content">
+  <h4>Allergens</h4>
+  <ul style="list-style: none;">
+    {% for allergen_hash in site.data.allergens %} {% assign allergen = allergen_hash[1] %}
+    <li><a href="{{ allergen.name | slugify }}">{{allergen.name}}</a></li>
+    {% endfor %}
+  </ul>
+</div>

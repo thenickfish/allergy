@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<div class="content">
+  <h4>Product Information Links:</h4>
+  <ul>
+    {% for link in site.data.links %}
+    <li>
+      <a href="{{ link.url }}">
+        {{ link.name }}
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

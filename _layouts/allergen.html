@@ -1,0 +1,62 @@
+---
+layout: default
+---
+
+<div style="flex: 2" class="content">
+    {% assign allergen = site.data.allergens[page.allergen] %}
+
+<h2>{{allergen.name}}</h2>
+<p>{{allergen.description}}</p>
+
+<ul>
+  {% for link in allergen.links %}
+  <li><a target="_blank" rel="noopener noreferrer" href="{{link.url}}">{{link.name}}</a></li>
+  {% endfor %}
+</ul>
+
+
+</div>
+
+<div style="flex: 1" class="content vertical-container">
+  
+  <div>
+    <h4>Common Products to Avoid:</h4>
+  <ul>
+    {% for product in allergen.avoid_products %}
+    <li>{{product}}</li>
+    {% endfor %}
+  </ul>
+  </div>
+  <div>
+    <h4>Products that may be okay:</h4>
+  <ul>
+    {% for product in allergen.good_products %}
+    <li>{{product}}</li>
+    {% endfor %}
+  </ul>
+  </div>
+</div>
+<!-- <div class="content">
+    <h2>Fusce ultrices</h2>
+    <ul class="style3">
+      <li class="first">
+        <p class="date">01-14-2013</p>
+        <p><a href="#">Vestibulum laoreet lorem sed amet condimentum eget ultrices et mago porttitor nequese blandit.</a></p>
+      </li>
+      <li>
+        <p class="date">01-13-2013</p>
+        <p><a href="#">Vestibulum laoreet lorem sed amet condimentum eget ultrices et mago porttitor nequese blandit.</a></p>
+      </li>
+      <li>
+        <p class="date">Links</p>
+        <div>
+          <ul>
+            {% for link in allergen.links %}
+            <li><a target="_blank" rel="noopener noreferrer" href="{{link.url}}">{{link.name}}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </div> -->
+</div>

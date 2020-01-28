@@ -1,0 +1,14 @@
+name: Limonene
+links:
+  - name: Wikipedia article
+    url: https://en.wikipedia.org/wiki/Limonene
+  - name: Contact Dermatitis Institute
+    url: https://www.contactdermatitisinstitute.com/d-limonene.php
+description: >
+  In manufacturing, limonene is used as a fragrance, cleaner (solvent), 
+  and as an ingredient in household cleaning products, cosmetics, and personal hygiene products.
+good_products:
+  - something
+  - something else
+avoid_products:
+  - bounce

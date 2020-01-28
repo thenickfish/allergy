@@ -1,0 +1,20 @@
+- name: bounce dryer sheets
+  url: https://www.pg.com/productsafety/ingredients/household_care/laundary_fabric_care/Bounce/Bounce_Dryer_Sheets_-_All_Varieties.pdf
+
+- name: clr ingredients page
+  url: https://clrbrands.com/en-us/Ingredients
+
+- name: dawn ingredients page
+  url: https://smartlabel.pg.com/00037000973782.html#ingredients
+
+- name: jet dry ingredients page
+  url: http://www.rbnainfo.com/product.php?productLineId=1914
+
+- name: palmolive
+  url: https://www.palmolive.com/en-us/ingredients
+
+- name: scrubbing bubbles
+  url: https://www.whatsinsidescjohnson.com/us/en/brands/scrubbing-bubbles
+
+- name: windex
+  url: https://www.whatsinsidescjohnson.com/us/en/brands/windex/windex-original-glass-cleaner

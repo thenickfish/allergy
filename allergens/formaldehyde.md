@@ -1,0 +1,4 @@
+---
+layout: allergen
+allergen: formaldehyde
+---
