@@ -18,12 +18,12 @@ layout: default
 </div>
 
 <div style="flex: 1" class="content vertical-container">
-  
+  As an Amazon Associate I earn from qualifying purchases.
   <div>
     <h4>Common Products to Avoid:</h4>
   <ul>
     {% for product in allergen.avoid_products %}
-    <li>{{product}}</li>
+    <li><a href="{{product.url}}">{{product.name}}</a></li>
     {% endfor %}
   </ul>
   </div>
@@ -31,7 +31,7 @@ layout: default
     <h4>Products that may be okay:</h4>
   <ul>
     {% for product in allergen.good_products %}
-    <li>{{product}}</li>
+    <li><a href="{{product.url}}">{{product.name}}</a></li>
     {% endfor %}
   </ul>
   </div>

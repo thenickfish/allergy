@@ -1,14 +1,24 @@
 name: Limonene
+description: >-
+  Limonene is often used as a fragrance, cleaner (solvent), and as an ingredient in household cleaning products.
+  Some common household products containing this compound include soaps, shampoos, lotions, perfumes, laundry detergents, and air fresheners.
+  Ingredients labeled "fragrance" often contain limonene.
+good_products:
+  - name: Seventh Generation Free & Clear Dish Soap
+    url: https://amzn.to/3aN9vMC
+  - name: Seventh Generation Free & Clear Laundry Detergent
+    url: https://amzn.to/37CEDwb
+  - name: Dr. Bronner's Pure Castille Soap
+    url: https://amzn.to/37Hqkqw
+avoid_products:
+  - name: Febreze Fabric Refresher
+    url: https://amzn.to/2RB1jHD
 links:
   - name: Wikipedia article
     url: https://en.wikipedia.org/wiki/Limonene
   - name: Contact Dermatitis Institute
     url: https://www.contactdermatitisinstitute.com/d-limonene.php
-description: >
-  In manufacturing, limonene is used as a fragrance, cleaner (solvent), 
-  and as an ingredient in household cleaning products, cosmetics, and personal hygiene products.
-good_products:
-  - something
-  - something else
-avoid_products:
-  - bounce
+  - name: A good overview on Healthline
+    url: https://www.healthline.com/nutrition/d-limonene#uses
+  - name: Cosmetics Info Page
+    url: https://www.cosmeticsinfo.org/ingredient/limonene-0

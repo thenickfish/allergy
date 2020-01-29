@@ -20,7 +20,7 @@ Released   : 20130128
     <title>Contact Allergies</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <link href="http://fonts.googleapis.com/css?family=Archivo+Narrow:400,700|Open+Sans:400,600,700" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow:400,700|Open+Sans:400,600,700" rel="stylesheet" type="text/css" />
     <link href="{{ "assets/css/default.css" | relative_url }}" rel="stylesheet" type="text/css" media="all" />
     <!--[if IE 6]>
       <link href="default_ie6.css" rel="stylesheet" type="text/css" />
@@ -53,8 +53,8 @@ Released   : 20130128
 
   <script>
     let id;
-    if (window.location.pathname.replace('{{ ""| relative_url }}', '').length > 1) {
-      id = window.location.pathname.split('/')[2] + 'Link';
+    if (window.location.pathname.replace('{{ "" | relative_url }}', '').length > 1) {
+      id = window.location.pathname.split('/')[1] + 'Link';
     } else {
       id = 'homeLink';
     }
